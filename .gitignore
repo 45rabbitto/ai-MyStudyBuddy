@@ -16,8 +16,11 @@ env/
 .env
 .env.*
 
+<<<<<<< HEAD
 data/
 
+=======
+>>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
 # ======================
 # Jupyter
 # ======================
@@ -52,6 +55,7 @@ mlruns/
 
 # ======================
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Model Artifacts (AI Models)
 # ======================
 artifacts/
@@ -59,10 +63,15 @@ checkpoints/
 models/onnx_production/
 *.onnx
 =======
+=======
+>>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
 # Model Artifacts
 # ======================
 artifacts/
 checkpoints/
+<<<<<<< HEAD
+>>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
+=======
 >>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
 
 # ======================
@@ -87,7 +96,13 @@ build/
 # ======================
 tmp/
 <<<<<<< HEAD
+<<<<<<< HEAD
 temp/
+=======
+temp/
+
+*.onnx
+>>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
 =======
 temp/
 
