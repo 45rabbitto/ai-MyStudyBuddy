@@ -4,6 +4,10 @@ transformers
 optimum
 onnxruntime
 torch
+<<<<<<< HEAD
 numpy
 optimum[onnxruntime]
 onnxruntime
+=======
+numpy
+>>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973

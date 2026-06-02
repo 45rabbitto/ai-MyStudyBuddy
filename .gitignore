@@ -16,6 +16,8 @@ env/
 .env
 .env.*
 
+data/
+
 # ======================
 # Jupyter
 # ======================
@@ -49,12 +51,19 @@ Thumbs.db
 mlruns/
 
 # ======================
+<<<<<<< HEAD
 # Model Artifacts (AI Models)
 # ======================
 artifacts/
 checkpoints/
 models/onnx_production/
 *.onnx
+=======
+# Model Artifacts
+# ======================
+artifacts/
+checkpoints/
+>>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
 
 # ======================
 # Firebase Credentials
@@ -77,4 +86,10 @@ build/
 # Temporary
 # ======================
 tmp/
+<<<<<<< HEAD
 temp/
+=======
+temp/
+
+*.onnx
+>>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
