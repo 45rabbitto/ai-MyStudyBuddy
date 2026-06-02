@@ -1,0 +1,80 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# ======================
+# Environment Variables
+# ======================
+.env
+.env.*
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# VS Code
+# ======================
+.vscode/
+
+# ======================
+# Pytest
+# ======================
+.pytest_cache/
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# MLflow
+# ======================
+mlruns/
+
+# ======================
+# Model Artifacts (AI Models)
+# ======================
+artifacts/
+checkpoints/
+models/onnx_production/
+*.onnx
+
+# ======================
+# Firebase Credentials
+# ======================
+firebase-key.json
+serviceAccountKey.json
+
+# ======================
+# Build Files
+# ======================
+dist/
+build/
+
+# ======================
+# Docker
+# ======================
+.docker/
+
+# ======================
+# Temporary
+# ======================
+tmp/
+temp/
