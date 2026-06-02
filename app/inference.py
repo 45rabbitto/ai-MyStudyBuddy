@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 import re  
-=======
->>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
-=======
->>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
 from optimum.onnxruntime import ORTModelForSeq2SeqLM
 from transformers import AutoTokenizer
 
@@ -18,8 +12,6 @@ model = ORTModelForSeq2SeqLM.from_pretrained(
     MODEL_PATH
 )
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 def clean_text(text: str) -> str:
     """
     Fungsi Preprocessing / Text Cleaning otomatis untuk mencegah glitch format JSON.
@@ -44,17 +36,6 @@ def summarize(text):
 
     inputs = tokenizer(
         cleaned_text,  
-=======
-=======
->>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
-def summarize(text):
-
-    inputs = tokenizer(
-        text,
-<<<<<<< HEAD
->>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
-=======
->>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
         return_tensors="pt",
         truncation=True,
         max_length=1024
@@ -64,16 +45,8 @@ def summarize(text):
         **inputs,
         max_length=150,
         min_length=30,
-<<<<<<< HEAD
-<<<<<<< HEAD
         num_beams=4,
         use_cache=False  
-=======
-        num_beams=4
->>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
-=======
-        num_beams=4
->>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
     )
 
     summary = tokenizer.decode(
