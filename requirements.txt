@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+transformers
+optimum
+onnxruntime
+torch
+<<<<<<< HEAD
+<<<<<<< HEAD
+numpy
+optimum[onnxruntime]
+onnxruntime
+=======
+numpy
+>>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
+=======
+numpy
+>>>>>>> 31bcc8a8376f91270cefcd29697bded76bbf5973
